@@ -1,9 +1,532 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "produtos" : [
+        {
+            "id" : 1,
+            "nome" : "Mangá Attack on titan vol. 1 ao 5",
+            "categoria" : "Attack on Titan",
+            "valor_antigo" : 20,
+            "valor_atual" : 15,
+            "vendas" : "92,5 mil",
+            "credito" : "x3 de 5,00",
+            "frete" : "GRÁTIS",
+            "estrelas" : 4,
+            "poster" : "https://i.ibb.co/HPxj5nZ/List-of-Attack-on-Titan-chapters.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/HPxj5nZ/List-of-Attack-on-Titan-chapters.jpg"
+                },
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/1Kj8H6C/Shingeki-no-Kyojin-02.jpg"
+                },
+                {
+                    "id" : 3,
+                    "image" : "https://i.ibb.co/qC59m3z/Attack-on-Titan-Volume-3-Cover.jpg"
+                },
+                {
+                    "id" : 4,
+                    "image" : "https://i.ibb.co/zhLS9Nf/Attack-on-Titan-Volume-4-Cover.jpg"
+                },
+                {
+                    "id" : 5,
+                    "image" : "https://i.ibb.co/x7gVH16/download.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "nome" : "Mangá Demon Slayer vol. 8 ao 14",
+            "categoria" : "Demon Slayer",
+            "valor_antigo" : 20,
+            "valor_atual" : 16,
+            "vendas" : "3,5 mil",
+            "credito" : "x2 de 8,00",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/4KHC3rF/vol-8.jpg",
+            "volumes" : [
+                {
+                    "id" : 8,
+                    "image" : "https://i.ibb.co/4KHC3rF/vol-8.jpg"
+                },
+                {
+                    "id" : 9,
+                    "image" : "https://i.ibb.co/JxbjkWj/vol-9.jpg"
+                },
+                {
+                    "id" : 10,
+                    "image" : "https://i.ibb.co/DCsYWYp/vol-10.jpg"
+                },
+                {
+                    "id" : 11,
+                    "image" : "https://i.ibb.co/LJGPTrj/vol-11.jpg"
+                },
+                {
+                    "id" : 12,
+                    "image" : "https://i.ibb.co/G2tTtgw/vol-12.jpg"
+                },
+                {
+                    "id" : 13,
+                    "image" : "https://i.ibb.co/347ZD1X/demon-slayer-vol-13.jpg"
+                },
+                {
+                    "id" : 14,
+                    "image" : "https://i.ibb.co/XpckWNx/vol-14.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "nome" : "Mangá Jujutsu Kaisen vol. 0 ao 4",
+            "categoria" : "Jujutsu Kaisen",
+            "valor_antigo" : 21.90,
+            "valor_atual" : 18.00,
+            "vendas" : "3,7 mil",
+            "credito" : "x2 de 9,00",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/WH1Wnkv/jk-0.jpg",
+            "volumes" : [
+                {
+                    "id" : 0,
+                    "image" : "https://i.ibb.co/WH1Wnkv/jk-0.jpg"
+                },
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/jhFnfNw/jk-1.jpg"
+                },
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/CQ8bN77/jk-2.jpg"
+                },
+                {
+                    "id" : 3,
+                    "image" : "https://i.ibb.co/Z6DVxzt/jk-3.jpg"
+                },
+                {
+                    "id" : 4,
+                    "image" : "https://i.ibb.co/tHqbZMJ/jk-4.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "nome" : "Mangá One Piece vol. 28 ao 14",
+            "categoria" : "One Piece",
+            "valor_antigo" : 19,
+            "valor_atual" : 14,
+            "vendas" : "3,7 mil",
+            "credito" : "x1 de 14,00",
+            "frete" : "GRÁTIS",
+            "estrelas" : 3,
+            "poster" : "https://i.ibb.co/cF3WPpw/op-28.jpg",
+            "volumes" : [
+                {
+                    "id" : 28,
+                    "image" : "https://i.ibb.co/cF3WPpw/op-28.jpg"
+                },
+                {
+                    "id" : 29,
+                    "image" : "https://i.ibb.co/93VQJLg/One-Piece-29.jpg"
+                },
+                {
+                    "id" : 30,
+                    "image" : "https://i.ibb.co/Wcp5p8q/One-Piece-Volume-30-Cover.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "nome" : "Mangá Naruto Shippuden vol. 8 ao 14",
+            "categoria" : "Naruto Shippuden",
+            "valor_antigo" : 22,
+            "valor_atual" : 18,
+            "vendas" : "13,7 mil",
+            "credito" : "x2 de 9,00",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/BV2Ks4F/naruto-67.jpg",
+            "volumes" : [
+                {
+                    "id" : 67,
+                    "image" : "https://i.ibb.co/BV2Ks4F/naruto-67.jpg"
+                },
+                {
+                    "id" : 68,
+                    "image" : "https://i.ibb.co/7VQTH54/Naruto-Volume-68-Cover.jpg"
+                },
+                {
+                    "id" : 69,
+                    "image" : "https://i.ibb.co/gmYzq1V/naruto-69.jpg"
+                },
+                {
+                    "id" : 70,
+                    "image" : "https://i.ibb.co/N1z2rLM/naruto-70.jpg"
+                },
+                {
+                    "id" : 71,
+                    "image" : "https://i.ibb.co/L9GmWph/naruto-71.jpg"
+                },
+                {
+                    "id" : 72,
+                    "image" : "https://i.ibb.co/Y88kVKG/Naruto-Vol-72.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "nome" : "Mangá Boruto Next Generation vol. 1",
+            "categoria" : "Boruto",
+            "valor_antigo" : 18.90,
+            "valor_atual" : 13.90,
+            "vendas" : "1,2 mil",
+            "credito" : "x1 de 13,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 2,
+            "poster" : "https://i.ibb.co/W2SkQwB/boruto.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/W2SkQwB/boruto.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 7,
+            "nome" : "Mangá Chainsaw Man vol. 1",
+            "categoria" : "Chainsaw Man",
+            "valor_antigo" : 17.90,
+            "valor_atual" : 13.90,
+            "vendas" : "9,2 mil",
+            "credito" : "x1 de 13,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 4,
+            "poster" : "https://i.ibb.co/zrqS5N6/Chainsaw-Man-Volume-1.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/zrqS5N6/Chainsaw-Man-Volume-1.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 8,
+            "nome" : "Mangá Dragon Ball Surper vol. 1 ao 2",
+            "categoria" : "Dragon Ball Surper",
+            "valor_antigo" : 19.90,
+            "valor_atual" : 18.90,
+            "vendas" : "39,2 mil",
+            "credito" : "x1 de 18,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/s54TzRP/db-1.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/s54TzRP/db-1.jpg"
+                },
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/BCQ6Sck/db-2.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 9,
+            "nome" : "Mangá My Hero Academy vol. 20 ao 23",
+            "categoria" : "My Hero Academy",
+            "valor_antigo" : 20.90,
+            "valor_atual" : 18.90,
+            "vendas" : "14,1 mil",
+            "credito" : "x1 de 18,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/NKnYV0N/bnh-20.jpg",
+            "volumes" : [
+                {
+                    "id" : 20,
+                    "image" : "https://i.ibb.co/NKnYV0N/bnh-20.jpg"
+                },
+                {
+                    "id" : 21,
+                    "image" : "https://i.ibb.co/93bNHsN/bnh-21.jpg"
+                },
+                {
+                    "id" : 22,
+                    "image" : "https://i.ibb.co/gvBqJZc/bnh-22.jpg"
+                },
+                {
+                    "id" : 23,
+                    "image" : "https://i.ibb.co/MfkDJ5V/bnh-23.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 10,
+            "nome" : "Mangá Surper Onze vol. 1",
+            "categoria" : "Surper Onze",
+            "valor_antigo" : 22.90,
+            "valor_atual" : 19.90,
+            "vendas" : "12,5 mil",
+            "credito" : "x1 de 19,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/MN5s748/Mang-Super-Onze-Mang-s-JBC.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/MN5s748/Mang-Super-Onze-Mang-s-JBC.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 11,
+            "nome" : "Mangá The Seven Deadly Sins vol. 3 ao 4",
+            "categoria" : "The Seven Deadly Sins",
+            "valor_antigo" : 12.90,
+            "valor_atual" : 10.90,
+            "vendas" : "1,5 mil",
+            "credito" : "x1 de 10,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 2,
+            "poster" : "https://i.ibb.co/NVf39QN/nnt-3.jpg",
+            "volumes" : [
+                {
+                    "id" : 3,
+                    "image" : "https://i.ibb.co/NVf39QN/nnt-3.jpg"
+                },
+                {
+                    "id" : 4,
+                    "image" : "https://i.ibb.co/q1wcTKh/nnt-4.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 12,
+            "nome" : "Mangá Naruto Clássico vol. 1 ao 2",
+            "categoria" : "Naruto Clássico",
+            "valor_antigo" : 15,
+            "valor_atual" : 14.90,
+            "vendas" : "23,5 mil",
+            "credito" : "x1 de 14,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/qdqM5vL/naruto-classico-1.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/qdqM5vL/naruto-classico-1.jpg"
+                },
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/QNfYcgy/naruto-classico-2.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 13,
+            "nome" : "Mangá Record of Ragnarok vol. 1 ao 5",
+            "categoria" : "Record of Ragnarok",
+            "valor_antigo" : 18,
+            "valor_atual" : 17.90,
+            "vendas" : "16,8 mil",
+            "credito" : "x1 de 17,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/vhC7bnt/Thor-vs-lu-bu.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/vhC7bnt/Thor-vs-lu-bu.jpg"
+                },
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/KNbS86M/Ad-n-vs-Zeus.jpg"
+                },
+                {
+                    "id" : 3,
+                    "image" : "https://i.ibb.co/d0Ln7jy/Sasaki-Kojiro-x-Poseidon.jpg"
+                },
+                {
+                    "id" : 4,
+                    "image" : "https://i.ibb.co/0YS1zS5/Shuumatsu-no-Valkyrie-vol-4.jpg"
+                },
+                {
+                    "id" : 5,
+                    "image" : "https://i.ibb.co/C6DPJDk/Shuumatsu-no-Valkyrie.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 14,
+            "nome" : "Mangá Tokyo Revengers vol. 4 ao 6",
+            "categoria" : "Tokyo Revengers",
+            "valor_antigo" : 13,
+            "valor_atual" : 12.90,
+            "vendas" : "3,5 mil",
+            "credito" : "x1 de 12,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 4,
+            "poster" : "https://i.ibb.co/dLLSdKH/tokyo-revengers-volume-4.jpg",
+            "volumes" : [
+                {
+                    "id" : 4,
+                    "image" : "https://i.ibb.co/dLLSdKH/tokyo-revengers-volume-4.jpg"
+                },
+                {
+                    "id" : 5,
+                    "image" : "https://i.ibb.co/wYh57Hc/tokyo-revengers-volume-5.jpg"
+                },
+                {
+                    "id" : 6,
+                    "image" : "https://i.ibb.co/9pW46Jm/tokio-Volumen-6.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 15,
+            "nome" : "Mangá Dragon Ball Clássico vol. 167 ao 168",
+            "categoria" : "Dragon Ball Clássico",
+            "valor_antigo" : 25,
+            "valor_atual" : 21.90,
+            "vendas" : "38,4 mil",
+            "credito" : "x1 de 21,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/CMrNRsC/DB-Chap-167.jpg",
+            "volumes" : [
+                {
+                    "id" : 167,
+                    "image" : "https://i.ibb.co/CMrNRsC/DB-Chap-167.jpg"
+                },
+                {
+                    "id" : 168,
+                    "image" : "https://i.ibb.co/W6HNnnc/DB-Chap-168.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 16,
+            "nome" : "Mangá Blue Look vol. 1 ao 4",
+            "categoria" : "Blue Look",
+            "valor_antigo" : 15,
+            "valor_atual" : 12.90,
+            "vendas" : "2,5 mil",
+            "credito" : "x1 de 12,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 4,
+            "poster" : "https://i.ibb.co/xqPRHH7/bl-1.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/xqPRHH7/bl-1.jpg"
+                },
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/0KjKGCF/bl-2.jpg"
+                },
+                {
+                    "id" : 3,
+                    "image" : "https://i.ibb.co/RDd4nKM/bl-3.jpg"
+                },
+                {
+                    "id" : 4,
+                    "image" : "https://i.ibb.co/t4yBX0k/bl-4.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 17,
+            "nome" : "Mangá Solo Leveling vol. 1",
+            "categoria" : "Solo Leveling",
+            "valor_antigo" : 16,
+            "valor_atual" : 13.90,
+            "vendas" : "11,9 mil",
+            "credito" : "x1 de 13,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 3,
+            "poster" : "https://i.ibb.co/Ltm8vC0/Solo-Leveling-Vol-1-comic.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/Ltm8vC0/Solo-Leveling-Vol-1-comic.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 18,
+            "nome" : "Mangá Bleach vol. 1 ao 2",
+            "categoria" : "Bleach",
+            "valor_antigo" : 23,
+            "valor_atual" : 16.00,
+            "vendas" : "22,5 mil",
+            "credito" : "x2 de 8,00",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/mR6Z5fh/bleach-1.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/mR6Z5fh/bleach-1.jpg"
+                },
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/BLwgtsR/Bleach-vol-2.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 19,
+            "nome" : "Mangá The Promisse Neverland vol. 2 ao 5",
+            "categoria" : "The Promisse Neverland",
+            "valor_antigo" : 19,
+            "valor_atual" : 18.90,
+            "vendas" : "4,4 mil",
+            "credito" : "x1 de 18,90",
+            "frete" : "GRÁTIS",
+            "estrelas" : 5,
+            "poster" : "https://i.ibb.co/fHsDD9h/porm-2.jpg",
+            "volumes" : [
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/fHsDD9h/porm-2.jpg"
+                },
+                {
+                    "id" : 3,
+                    "image" : "https://i.ibb.co/JqzYV8z/The-Promised-Neverland-Vol-3-ebook-by-Kaiu-Shirai-Rakuten-Kobo.jpg"
+                },
+                {
+                    "id" : 4,
+                    "image" : "https://i.ibb.co/kGFRmwc/prom-4.jpg"
+                },
+                {
+                    "id" : 5,
+                    "image" : "https://i.ibb.co/c1py8tY/prop-5.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 20,
+            "nome" : "Mangá Tokyo Ghoul  vol. 1 ao 2",
+            "categoria" : "Tokyo Ghoul",
+            "valor_antigo" : 15,
+            "valor_atual" : 12.00,
+            "vendas" : "13,7 mil",
+            "credito" : "x2 de 6,00",
+            "frete" : "GRÁTIS",
+            "estrelas" : 4,
+            "poster" : "https://i.ibb.co/G7xSBNf/Tokyo-Ghoul-Vol-1.jpg",
+            "volumes" : [
+                {
+                    "id" : 1,
+                    "image" : "https://i.ibb.co/G7xSBNf/Tokyo-Ghoul-Vol-1.jpg"
+                },
+                {
+                    "id" : 2,
+                    "image" : "https://i.ibb.co/x6Gs80X/tk-2.jpg"
+                }
+            ]
+        }
+    ]
 }
