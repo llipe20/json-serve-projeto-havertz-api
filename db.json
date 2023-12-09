@@ -528,5 +528,40 @@
                 }
             ]
         }
+    ],
+    "banners" : [
+        {
+            "id" : 1,
+            "url": "https://i.ibb.co/GFz1Kpg/0a1db825-5650-4702-b8a6-e0dc3a4bcf07.jpg"
+        },
+        {
+            "id" : 2,
+            "url": "https://i.ibb.co/Y7dRrCL/8bc6d674-9a6c-40b8-8ff4-8dcd057053ad.jpg"
+        },
+        {
+            "id" : 3,
+            "url": "https://i.ibb.co/bWGFFtv/e578b95c-06c1-4b43-b160-5c4ed8be3b41.jpg"
+        },
+        {
+            "id" : 4,
+            "url": "https://i.ibb.co/Z1tpfS8/2cb65b53-93b5-4aad-850a-95b88915814b.jpg"
+        },
+        {
+            "id" : 5,
+            "url": "https://i.ibb.co/0KswNfN/haikyuu-header.jpg"
+        }
+        ,
+        {
+            "id" : 6,
+            "url": "https://i.ibb.co/VB6wCpD/header-white-dr-stone.jpg"
+        },
+        {
+            "id" : 7,
+            "url": "https://i.ibb.co/wdfLzCL/dd9aad00-4f64-4b19-93eb-4ed4129fdc08.jpg"
+        },
+        {
+            "id" : 8,
+            "url": "https://i.ibb.co/RCKNcV7/0f2ce3b2-422f-4897-b715-17f146fd57f6.jpg"
+        }
     ]
 }
